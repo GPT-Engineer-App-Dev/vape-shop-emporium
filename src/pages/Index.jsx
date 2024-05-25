@@ -39,16 +39,38 @@ const Index = () => {
       <Box as="section" py={10}>
         <Heading textAlign="center" mb={6}>Featured Products</Heading>
         <Flex wrap="wrap" justifyContent="center" spacing={4}>
-          {/* Example Product Card */}
+          {/* Product 1 */}
           <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
-            <Image src="/path-to-product-image.jpg" alt="Product Image" />
+            <Image src="/images/product1.jpg" alt="Sleek Vape Pen" />
             <Box p={6}>
-              <Heading size="md" mb={2}>Product Name</Heading>
-              <Text mb={4}>$29.99</Text>
+              <Heading size="md" mb={2}>Sleek Vape Pen</Heading>
+              <Text mb={4}>$19.99</Text>
+              <Text mb={4}>A modern and compact vape pen for everyday use.</Text>
               <Button colorScheme="teal" size="sm">Add to Cart</Button>
             </Box>
           </Box>
-          {/* Repeat for more products */}
+
+          {/* Product 2 */}
+          <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+            <Image src="/images/product2.jpg" alt="Stylish Vape Mod" />
+            <Box p={6}>
+              <Heading size="md" mb={2}>Stylish Vape Mod</Heading>
+              <Text mb={4}>$49.99</Text>
+              <Text mb={4}>A high-performance vape mod with a digital display.</Text>
+              <Button colorScheme="teal" size="sm">Add to Cart</Button>
+            </Box>
+          </Box>
+
+          {/* Product 3 */}
+          <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" m={4}>
+            <Image src="/images/product3.jpg" alt="Vape Juice Variety Pack" />
+            <Box p={6}>
+              <Heading size="md" mb={2}>Vape Juice Variety Pack</Heading>
+              <Text mb={4}>$29.99</Text>
+              <Text mb={4}>A pack of assorted vape juices with unique flavors.</Text>
+              <Button colorScheme="teal" size="sm">Add to Cart</Button>
+            </Box>
+          </Box>
         </Flex>
       </Box>
 
